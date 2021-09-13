@@ -1,0 +1,368 @@
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+  }
+  .get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    margin-top: 5px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+     background-image: linear-gradient(125deg,#a72879,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+  }
+
+  .error-notice {
+    margin: 5px 5px; /* Making sure to keep some distance from all side */
+  }
+  
+  .oaerror {
+    width: 90%; /* Configure it fit in your design  */
+    margin: 0 auto; /* Centering Stuff */
+    background-color: #FFFFFF; /* Default background */
+    padding: 20px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .danger {
+    border-left-color: #d9534f; /* Left side border color */
+    background-color: rgba(217, 83, 79, 0.1); /* Same color as the left border with reduced alpha to 0.1 */
+  }
+  
+  .danger strong {
+    color:  #d9534f;
+  }
+  
+  .warning {
+    border-left-color: #f0ad4e;
+    background-color: rgba(240, 173, 78, 0.1);
+  }
+  
+  .warning strong {
+    color: #f0ad4e;
+  }
+  
+  .info {
+    border-left-color: #5bc0de;
+    background-color: rgba(91, 192, 222, 0.1);
+  }
+  
+  .info strong {
+    color: #5bc0de;
+  }
+  
+  .success {
+    border-left-color: #2b542c;
+    background-color: rgba(43, 84, 44, 0.1);
+  }
+  
+  .success strong {
+    color: #2b542c;
+  }
+
+
+
+
+
+
+
+
+  .vi_btn{background:#6db744;}
+.logo-txt img {
+   vertical-align: bottom;
+    margin: 5px;
+}
+.counter {
+    
+    overflow: hidden;
+}
+
+
+@media (max-width:480px){
+
+   .call-us {
+    top: 50%;
+}
+
+
+
+.whatapp-us {
+    top: 60%;
+}
+
+   .minetage_bg {
+    
+    width: 100%;
+    height: 65%;
+    background-position: bottom;
+    right: 57px;
+    top: 57%;
+}
+
+.counter_content {
+
+    text-align: center;
+}
+
+.logo-txt img {
+
+    width: 36px;
+}
+.counter_content .display-4 {
+    font-size: 30px;
+}
+
+}
+
+
+.right-corder-container {
+    position:fixed;
+    right:10px;
+    top:35%;
+    z-index:999;
+    width: 200px;
+}
+.call-us
+{
+   
+  
+    top:46%;
+  
+}
+
+.whatapp-us{
+   top:57%;
+
+}
+
+.right-corder-container .right-corder-container-button {
+    height: 45px;
+    width: 45px;
+    border:none;
+    background-color:#f36715;
+    border-radius: 62px;        /*Transform the square into rectangle, sync that value with the width/height*/
+    transition: all 300ms;      /*Animation to close the button (circle)*/
+    box-shadow:2px 2px 5px rgb(62 25 4 / 85%);
+    cursor:pointer;
+    display: block;
+}
+
+
+.right-corder-container .right-corder-container-button span {
+   font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    line-height: 30px;
+    right: 0px;
+    text-align: center;
+}
+
+
+.right-corder-container .right-corder-container-button:hover span{
+
+   left: 20px;
+   text-align:inherit;
+   right: auto;
+  
+}
+.right-corder-container .right-corder-container-button:hover {
+    transition: all 400ms cubic-bezier(.62,.1,.5,1);      
+    width:200px;                                            
+    border-top-right-radius: 5px;                           
+    border-bottom-right-radius: 5px;                        
+}
+
+/*
+    Long text appears slowly with an animation. That code prepare the animation by hidding the text.
+    The use of display is not there because it does not work well with CSS3 animation.
+*/
+.right-corder-container .right-corder-container-button .long-text {
+    transition: opacity 1000ms; /*Only the text fadein/fadeout is animated*/
+    opacity:0;                /*By default we do not display the text, we want the text to fade in*/
+    color:white;
+    white-space: nowrap;      
+    font-size: 0;             /*Set to 0 to not have overflow on the right of the browser*/
+    width: 0;                 /*Set to 0 to not have overflow on the right of the browser*/
+    margin:0;                 /*Set to 0 to not have overflow on the right of the browser*/
+}
+
+/*
+    Animation to have a text that appear progressively. We need to play with a delay
+    on the width and the font-size to not have the browser have the text appears on the right
+    side of the browser view port. This has the side-effect of having an horizontal bar.
+*/
+.right-corder-container .right-corder-container-button .long-text.show-long-text{
+  transition: opacity 700ms,
+              width 1ms linear 270ms,       /*two thirds of the animation on the container width*/
+              font-size 1ms linear 270ms;   /*two thirds of the animation on the container width*/
+  opacity:1;
+  margin-top: 2px;                          /*Center the position vertically*/
+  margin-left: 50px;                        /*Center between the + and the right end side*/
+  font-size: 18px;                          /*Text size, cannot be defined initially without moving the scrollbar*/
+  width: auto;                              /*Required to be set with a delay (see animation) to not have scrollbar. Delay is to wait container to size up*/
+}
+
+
+
+
+
+
+
+
+/* form */
+
+#contactus {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+   /*  background: #F9F9F9; */
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)
+}
+
+#contactus {}
+
+#contactus h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px
+}
+
+#contactus h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%
+}
+
+#contactus input[type="text"],
+#contactus input[type="email"],
+#contactus input[type="tel"],
+#contactus input[type="url"],
+#contactus textarea {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px
+}
+
+#contactus input[type="text"]:hover,
+#contactus input[type="email"]:hover,
+#contactus input[type="tel"]:hover,
+#contactus input[type="url"]:hover,
+#contactus textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border-bottom: 1px solid #f0715f;
+}
+
+#contactus textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none
+}
+
+#contactus button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f0715f;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px
+}
+
+#contactus button[type="submit"]:hover {
+    background: #f07150;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out
+}
+
+#contactus button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+#contactus input:focus,
+#contactus textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa
+}
